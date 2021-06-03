@@ -3,6 +3,7 @@ from PIL import ImageTk,Image
 root=Tk()
 root.title('This is my image viewer')
 root.iconbitmap('c:/Users/gf/Downloads/abc.ico')
+#here we need to write the address of photos in the computer inside""  address  "
 
 my_img1 = ImageTk.PhotoImage(Image.open("c:/Users/gf/Downloads/asd.png"))
 my_img2  = ImageTk.PhotoImage(Image.open("c:/Users/gf/Downloads/a1.png"))
